@@ -7,12 +7,11 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-
   let who = ["My friend", "My dog", "My uncle", "The driver"];
   let action = ["ate", "drunk", "fly"];
   let what = ["my food", "Juice", "plane"];
   let when = ["Today", "last month", "Yesterday"];
-  let image;
+  let image = [];
   function ranNum(num) {
     return Math.floor(Math.random() * num);
   }
