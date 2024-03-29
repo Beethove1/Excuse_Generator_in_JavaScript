@@ -1,16 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 .card {
   margin: auto;
-  margin-top: 100px;
-  width: 700px;
-  height: 500px;
+  margin-top: 6.25rem;
+  width: 43.75rem;
+  height: 31.25rem;
 }
 
 #executeb {
   float: right;
 }
 h3 {
-  align-items: center;
+  margin-left: 6.25rem;
   color: rgb(0, 149, 255);
 }
 
@@ -18,8 +18,19 @@ h5 {
 }
 
 .text {
-  margin-left: 200px;
-  margin-top: 100px;
-  font-size: 18px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 7.5rem;
+  font-size: 1.875rem;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.run {
+  width: 3.125rem;
+  height: 3.125rem;
+  cursor: default;
+}
+.run:active {
+  transform: translate(15%, 1px);
 }
